@@ -8,10 +8,15 @@ function generateQRCode(text) {
 
 // Save to path
 function saveQRCode(image, path) {
-  fs.writeFileSync(path, image);
-  console.log(`QR Code saved to ${path}`);
+  try {
+    fs.writeFileSync(path, image);
+    console.log(`QR Code saved to ${path}`);
+  } catch (e) {
+    console.log(`Could not save the file to path ${path}. Error: ${e}`);
+  }
 }
 
+// Export the modules
 module.exports = {
   generateQRCode,
   saveQRCode,

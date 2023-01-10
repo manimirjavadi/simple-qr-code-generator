@@ -11,5 +11,9 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "qr-image": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manimirjavadi/simple-qr-code-generator"
   }
 }

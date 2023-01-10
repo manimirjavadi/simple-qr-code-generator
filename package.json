@@ -1,6 +1,6 @@
 {
   "name": "simple-qr-code-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package to convert the string to qr code.",
   "main": "index.js",
   "scripts": {
